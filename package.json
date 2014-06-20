@@ -1,0 +1,15 @@
+{
+  "name": "TicTacToe",
+  "version": "0.0.1",
+  "description": "8th Light programming challenge",
+  "author": "James Haville",
+  "private": true,
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "karma": "~0.12.16",
+    "karma-jasmine": "~0.1.5",
+    "karma-chrome-launcher": "~0.1.4"
+  }
+}

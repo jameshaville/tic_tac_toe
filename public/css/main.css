@@ -1,0 +1,90 @@
+html, body, ul{
+	margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Lato';
+  font-size:28px;
+  font-weight: 300;
+}
+
+.title{
+  margin-top: 15px;
+  text-align: center;
+  color:#38d5b8;
+}
+
+.selected{
+  border: 2px solid #afafaf;
+}
+
+.cell{
+  display:inline;
+  border:1px solid #afafaf;
+  height:200px;
+  padding-top:80px; 
+  cursor:pointer;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  text-align: center;
+}
+
+.options-holder{
+  padding:10px;
+}
+
+.options-holder .options-section{
+  font-size:16px; 
+  display:inline-block; 
+  padding:10px;
+}
+
+.display-text-holder{
+  padding:5px;
+  text-align:right;
+  min-height:40px;
+}
+
+.display-text-holder .display-text{
+  font-weight: 300;
+  font-size:22px;
+  color:#afafaf;
+}
+
+.red{
+  color:red;
+}
+
+.blue{
+  color:blue;
+}
+
+.start-button{
+  background: #38d5b8;
+}
+
+.game-over-screen{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: black;
+  z-index: 4000;
+  opacity:0.8;
+}
+
+.game-over-screen .game-over-text{
+  text-align:center; 
+  font-size:50px;
+  margin-top:50px;
+  color:#fff;
+}
+
+.footer-note{
+  text-align:center;
+  margin:20px 0px;
+  padding:5px;
+  font-size:20px; 
+}
