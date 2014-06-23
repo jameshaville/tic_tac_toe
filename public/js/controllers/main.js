@@ -24,7 +24,7 @@ app.controller('GameController', ['$scope', 'GameEngine', function($scope, GameE
     $scope.humanFirst = $scope.humanFirst ? false : true;
   }
   
-  $scope.title = '8th Light Apprenticeship Programming Challenge';
+  $scope.title = 'Unbeatable Tic Tac Toe';
   $scope.gameOver = false;
   $scope.gameInProgress = false;
 
