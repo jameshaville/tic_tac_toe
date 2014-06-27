@@ -52,6 +52,11 @@ body{
   color:#afafaf;
 }
 
+.reset-btn-holder{
+  min-height:40px;
+  padding:5px;
+}
+
 .red{
   color:red;
 }
