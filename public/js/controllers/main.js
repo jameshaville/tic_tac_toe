@@ -15,8 +15,11 @@ app.controller('GameController', ['$scope', 'GameEngine', function($scope, GameE
   //play as char
   $scope.playAs = function(playAsChar){
     var previousChar = $scope.humanChar;
+    if (previousChar === playAsChar) return;
     $scope.humanChar = playAsChar;
+    console.log($scope.humanChar);
     $scope.computerChar = previousChar;
+    console.log($scope.computerChar);
   }
   
   $scope.playFirst = function(){
